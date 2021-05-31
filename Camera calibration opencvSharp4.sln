@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camera calibration opencvSharp4", "Camera calibration opencvSharp4\Camera calibration opencvSharp4.csproj", "{065AAE21-4B19-4A37-8004-47C667DF5814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065AAE21-4B19-4A37-8004-47C667DF5814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065AAE21-4B19-4A37-8004-47C667DF5814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065AAE21-4B19-4A37-8004-47C667DF5814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065AAE21-4B19-4A37-8004-47C667DF5814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E982ECC1-1E55-4E75-9C84-013502446256}
+	EndGlobalSection
+EndGlobal
