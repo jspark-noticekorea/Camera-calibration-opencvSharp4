@@ -6,7 +6,7 @@ in Visual Studio 2019
 
 target Framework: .Net 5.0
 
-# Projec summary
+# Project summary
 generating camera matrix and distortion coefficient for undistorting some images.
 
 (some images contains checker board pattern from an camera)  
