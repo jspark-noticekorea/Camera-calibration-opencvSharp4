@@ -16,6 +16,6 @@ generating camera matrix and distortion coefficient for undistorting some images
 # p.s
 I had been in a big trouble while developing a project that calibrates camera,  
 because the information of calibration in C# was very rare.  
-I refered to many QnA communities.
-Now, I hope everyone not to suffer from this...
+I refered to many QnA communities.  
+Now, I hope everyone not to suffer from this...  
 If you have any question, then call me *@jspark-noticekorea* or *@moran991231*
