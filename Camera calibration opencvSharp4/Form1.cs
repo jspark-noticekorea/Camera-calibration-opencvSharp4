@@ -34,14 +34,13 @@ namespace Camera_calibration_opencvSharp4
         double[,] mtx = new double[3, 3], new_mtx = new double[3, 3];
         double[] dist = new double[5];
         private Mat m_mtx, m_dist = new Mat(1, 5, MatType.CV_64FC1), m_new_mtx = Mat.Eye(3, 3, MatType.CV_64FC1);
-        private Rect roi = new Rect(), roi550 = new Rect(25, 25, 550, 550);
+        private Rect roi = new Rect();
         private Mat mapx = new Mat(), mapy = new Mat();
 
         // 
         private CMode mode = CMode.DISCONNECTED;
         private bool isCalibrated = false;
 
-        private bool isConnected = false;
         private string img_path = "", mtx_path = "";
         private string mtx_fname = "mtxNdist.txt";
         int cnt = 0; // the number of save images
@@ -313,7 +312,6 @@ namespace Camera_calibration_opencvSharp4
             playThread.Start();
             mode = CMode.READY;
             b_connect.Enabled = false;
-            isConnected = true;
             lbl_status.Text = "Device is connected";
         }
 
