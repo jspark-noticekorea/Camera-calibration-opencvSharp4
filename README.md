@@ -1,5 +1,5 @@
 # Camera-calibration-opencvSharp4
-This is an sample code to calibrate camera using opencvsharp4.
+This is a sample code to calibrate camera using opencvsharp4.
 
 I used the NuGet package "OpenCvSharp4.Windows" verson: 4.5.2.20210404  (https://www.nuget.org/packages/OpenCvSharp4.Windows/4.5.2.20210404?_src=template)
 in Visual Studio 2019
