@@ -1,8 +1,9 @@
 # Camera-calibration-opencvSharp4
 This is a sample code to calibrate camera using opencvsharp4.
 
-I used the NuGet package "OpenCvSharp4.Windows" verson: 4.5.2.20210404  (https://www.nuget.org/packages/OpenCvSharp4.Windows/4.5.2.20210404?_src=template)
+I used the NuGet package ["OpenCvSharp4.Windows" verson: 4.5.2.20210404](https://www.nuget.org/packages/OpenCvSharp4.Windows/4.5.2.20210404?_src=template)
 in Visual Studio 2019
+> I recommend you to use latest version of OpenCvSharp4, because old versions may have bugs regarding memory. It can cause Memory Violation Exception.
 
 target Framework: .Net 5.0
 
